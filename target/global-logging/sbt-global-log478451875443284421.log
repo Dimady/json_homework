@@ -1,0 +1,125 @@
+[debug] > Exec(early(addDefaultCommands), None, None)
+[debug] > Exec(addDefaultCommands, None, None)
+[debug] > Exec(early(initialize), None, None)
+[debug] > Exec(initialize, None, None)
+[debug] > Exec(early(addPluginSbtFile="""C:\Users\dprondyaev\AppData\Local\Temp\idea7.sbt"""), None, None)
+[debug] > Exec(addPluginSbtFile="""C:\Users\dprondyaev\AppData\Local\Temp\idea7.sbt""", None, None)
+[debug] > Exec(boot, None, None)
+[debug] > Exec(writeSbtVersion, None, None)
+[debug] > Exec(reload, None, None)
+[debug] > Exec(sbtStashOnFailure, None, None)
+[debug] > Exec(onFailure loadFailed, None, None)
+[debug] > Exec(loadp, None, None)
+[info] welcome to sbt 1.6.2 (Amazon.com Inc. Java 1.8.0_322)
+[debug]       Load.loadUnit: plugins took 104.5477ms
+[debug]       Load.loadUnit: defsScala took 0.3945ms
+[debug] [Loading] Scanning directory C:\Users\dprondyaev\.sbt\1.0\plugins
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\dprondyaev\.sbt\1.0\plugins, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 18.1314 ms
+[debug]           Load.resolveProject(global-plugins) took 54.6355ms
+[debug]         Load.loadTransitive: finalizeProject(Project(id global-plugins, base: C:\Users\dprondyaev\.sbt\1.0\plugins, plugins: List(<none>))) took 103.6561ms
+[debug] [Loading] Done in C:\Users\dprondyaev\.sbt\1.0\plugins, returning: (global-plugins)
+[debug]       Load.loadUnit: loadedProjectsRaw took 129.8431ms
+[debug]       Load.loadUnit: cleanEvalClasses took 0.2931ms
+[debug]     Load.loadUnit(file:/C:/Users/dprondyaev/.sbt/1.0/plugins/, ...) took 243.5464ms
+[debug]   Load.apply: load took 466.4477ms
+[debug]   Load.apply: resolveProjects took 8.8802ms
+[debug]   Load.apply: finalTransforms took 70.2117ms
+[debug]   Load.apply: config.delegates took 9.5516ms
+[debug]   Load.apply: Def.make(settings)... took 475.0956ms
+[debug]   Load.apply: structureIndex took 101.8252ms
+[debug]   Load.apply: mkStreams took 2.388ms
+[info] loading global plugins from C:\Users\dprondyaev\.sbt\1.0\plugins
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[debug] Load.defaultLoad until apply took 3264.768ms
+[debug]           Load.loadUnit: plugins took 51.0347ms
+[debug]           Load.loadUnit: defsScala took 0.0055ms
+[debug] [Loading] Scanning directory C:\Users\dprondyaev\Downloads\Otus\HW1\json_homework\project
+[debug]             Load.loadUnit: mkEval took 13.7182ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\dprondyaev\Downloads\Otus\HW1\json_homework\project, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.MiniDependencyTreePlugin,sbt.plugins.JUnitXmlReportPlugin,sbt.plugins.SemanticdbPlugin)
+[debug] Plugins.deducer#function took 3.2686 ms
+[info] loading settings for project json_homework-build from assembly.sbt,idea7.sbt ...
+[debug]               Load.resolveProject(json_homework-build) took 6.1614ms
+[debug]             Load.loadTransitive: finalizeProject(Project(id json_homework-build, base: C:\Users\dprondyaev\Downloads\Otus\HW1\json_homework\project, plugins: List(<none>))) took 10.1907ms
+[debug] [Loading] Done in C:\Users\dprondyaev\Downloads\Otus\HW1\json_homework\project, returning: (json_homework-build)
+[debug]           Load.loadUnit: loadedProjectsRaw took 3380.1091ms
+[debug]           Load.loadUnit: cleanEvalClasses took 7.0928ms
+[debug]         Load.loadUnit(file:/C:/Users/dprondyaev/Downloads/Otus/HW1/json_homework/project/, ...) took 3440.1055ms
+[debug]       Load.apply: load took 3442.0372ms
+[debug]       Load.apply: resolveProjects took 0.1707ms
+[debug]       Load.apply: finalTransforms took 14.6114ms
+[debug]       Load.apply: config.delegates took 0.6759ms
+[debug]       Load.apply: Def.make(settings)... took 122.8847ms
+[debug]       Load.apply: structureIndex took 33.6748ms
+[debug]       Load.apply: mkStreams took 0.0059ms
+[info] loading project definition from C:\Users\dprondyaev\Downloads\Otus\HW1\json_homework\project
+[debug] Running task... Cancel: Signal, check cycles: false, forcegc: true
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[warn] Unrecognized repository Scala Plugin Bundled Repository, ignoring it
+[debug]     Load.loadUnit: plugins took 5804.1821ms
+[debug]     Load.loadUnit: defsScala took 0.0033ms
+[debug] [Loading] Scanning directory C:\Users\dprondyaev\Downloads\Otus\HW1\json_homework
+[debug]       Load.loadUnit: mkEval took 0.2906ms
+[debug] [Loading] Found non-root projects 
+[debug] [Loading] Done in C:\Users\dprondyaev\Downloads\Otus\HW1\json_homework, returning: ()
+[debug] deducing auto plugins based on known facts Set(Atom(sbt.plugins.CorePlugin)) and clauses Clauses(Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.ScriptedPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.SbtPlugin),Set(Atom(sbt.ScriptedPlugin)))
+[debug] Clause(Atom(sbt.plugins.SemanticdbPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JUnitXmlReportPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.MiniDependencyTreePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbtassembly.AssemblyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.StructurePlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.IdeaShellPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.IvyPlugin)))
+[debug] Clause(Atom(sbt.plugins.IvyPlugin),Set(Atom(sbt.plugins.JvmPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.SemanticdbPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.JUnitXmlReportPlugin)))
+[debug] Clause(Atom(sbt.plugins.CorePlugin),Set(Atom(sbt.plugins.Giter8TemplatePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbt.plugins.MiniDependencyTreePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(sbtassembly.AssemblyPlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.StructurePlugin)))
+[debug] Clause(Atom(sbt.plugins.JvmPlugin),Set(Atom(org.jetbrains.sbt.IdeaShellPlugin)))
+[debug] Clause(And(Set(Atom(sbt.plugins.CorePlugin), Atom(sbt.plugins.JvmPlugin))),Set(Atom(org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin))))
+[debug]   :: deduced result: Matched(sbt.plugins.CorePlugin,sbt.plugins.Giter8TemplatePlugin,sbt.plugins.IvyPlugin,sbt.plugins.JvmPlugin,sbt.plugins.SemanticdbPlugin,org.jetbrains.sbt.indices.SbtIntellijIndicesPlugin,sbt.plugins.JUnitXmlReportPlugin,sbtassembly.AssemblyPlugin,org.jetbrains.sbt.IdeaShellPlugin,org.jetbrains.sbt.StructurePlugin,sbt.plugins.MiniDependencyTreePlugin)
+[debug] Plugins.deducer#function took 2.1631 ms
+[info] loading settings for project json_homework from build.sbt ...
+[debug]         Load.resolveProject(json_homework) took 94.8512ms
+[debug]       Load.loadTransitive: finalizeProject(Project(id json_homework, base: C:\Users\dprondyaev\Downloads\Otus\HW1\json_homework, plugins: List(<none>))) took 98.5183ms
+[debug] [Loading] Done in C:\Users\dprondyaev\Downloads\Otus\HW1\json_homework, returning: (json_homework)
+[debug]     Load.loadUnit: loadedProjectsRaw took 1269.7454ms
+[debug]     Load.loadUnit: cleanEvalClasses took 10.784ms
+[debug]   Load.loadUnit(file:/C:/Users/dprondyaev/Downloads/Otus/HW1/json_homework/, ...) took 7085.6464ms
+[debug] Load.apply: load took 7088.0456ms
+[debug] Load.apply: resolveProjects took 0.1463ms
+[debug] Load.apply: finalTransforms took 28.6081ms
+[debug] Load.apply: config.delegates took 0.3336ms
